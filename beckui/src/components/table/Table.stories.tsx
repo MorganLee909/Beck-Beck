@@ -52,14 +52,11 @@ export const TemplateLibrayTable: Story = {
   render: () => <TablePreview />,
 };
 
-
-
-
 export const TableHeaderWithActiveColumn: Story = {
     render: () => {
         return(
             <table style={{width: "1000px"}}>
-                <TableHeader columns={autoTextColumns} activeColumn={1} />
+                <TableHeader columns={autoTextColumns} activeColumn={0} />
             </table>
         )
     }
