@@ -25,3 +25,10 @@ export const Default: Story = {
     width: "1000px",
   },
 };
+
+export const SingleHeader: Story = {
+    args: {
+        section: "I am a Title",
+        onClose: false
+    }
+};

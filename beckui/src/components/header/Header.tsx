@@ -4,7 +4,7 @@ import { CloseIcon } from "../icons";
 
 export interface HeaderProps {
   section: string;
-  current: string;
+  current?: string;
   subtitle?: string;
   onClose?: () => void;
   style?: React.CSSProperties;
