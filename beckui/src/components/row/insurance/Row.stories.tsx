@@ -3,7 +3,6 @@ import { InsuranceRow } from './InsuranceRow';
 import { TemplateRowItem } from './TemplateLibTableRow';
 import { defaultRows } from '../../table/Types';
 
-
 const meta: Meta<typeof InsuranceRow> = {
   title: 'Components/Row',
   component: InsuranceRow,
