@@ -75,7 +75,7 @@ const styles: {
     overflowY: 'auto',
     marginTop: '28px',
     width: '280px'
-  },
+  }
 };
 
 export default styles;
@@ -117,7 +117,6 @@ export const Navigation: React.FC<NavigationProps> = ({
         />
 
       </div>
-
     </div>
   );
 };
